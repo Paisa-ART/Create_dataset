@@ -4,3 +4,4 @@ __pycache__/
 # Archivo de claves secretas
 .env
 .mp3
+configuracion.txt

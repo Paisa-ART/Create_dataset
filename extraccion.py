@@ -57,8 +57,8 @@ if __name__ == "__main__":
     cargar_db.load_csv_to_mongodb(csv_files)
     #cargar_db.load_csv_to_mongodb("prueba.csv")
     #cargar_db.eliminar_db()
-    API_KEY = "sk_1d6cc5e6a076b3a17c52c219235d1ea4eb7650b7bf759774"
-    VOICE_ID = "qHkrJuifPpn95wK3rm2A" 
+    API_KEY = ""
+    VOICE_ID = ""
     total=cargar_db.count_documents_in_collection(filter_query=None)
     for _ in range(total):
         text_document = cargar_db.get_next_unprocessed_text()

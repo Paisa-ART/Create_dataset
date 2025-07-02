@@ -1,8 +1,8 @@
 import requests
 import datetime
 
-TELEGRAM_BOT_TOKEN = "8120815368:AAEgT8aGpdI1SQHbMQ_6l7TJ4NDdhIlpl20"
-TELEGRAM_CHAT_ID = "5031035694"
+TELEGRAM_BOT_TOKEN = ""
+TELEGRAM_CHAT_ID = ""
 
 def enviar_notificacion_telegram(mensaje):
     url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
