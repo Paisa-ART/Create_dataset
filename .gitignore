@@ -1,0 +1,6 @@
+# Entorno virtual
+venv/
+__pycache__/
+# Archivo de claves secretas
+.env
+.mp3

@@ -1,0 +1,73 @@
+audio_path,text,split
+train/1.mp3,"Hola, este es el primer audio.",train
+train/2.mp3,Necesito reservar una cita.,train
+train/3.mp3,Puedes repetir la última instrucción.,train
+train/4.mp3,¿Cuál es el saldo de mi cuenta?,train
+dev/5.mp3,Activa el modo oscuro.,dev
+train/6.mp3,Abre la aplicación de mapas.,train
+train/7.mp3,¿Cuál es el precio del artículo cinco?,train
+test/8.mp3,Me gustaría cambiar mi contraseña.,test
+train/9.mp3,¿Qué opciones tengo para el envío?,train
+train/10.mp3,Reporta un problema técnico.,train
+test/11.mp3,Inicia la grabación de la reunión.,test
+train/12.mp3,Guarda este documento como PDF.,train
+train/13.mp3,¿cómo puedo ayudarte hoy?,train
+train/14.mp3,Quiero reservar una cita para mañana a las diez de la mañana.,train
+train/15.mp3,¿Cuál es el horario de atención?,train
+train/16.mp3,"Gracias por tu ayuda, eso fue muy útil.",train
+test/17.mp3,Repite la última frase por favor.,test
+train/18.mp3,Confirma mi pedido de pizza con extra queso.,train
+train/19.mp3,Necesito hablar con un operador.,train
+dev/20.mp3,Dame información sobre los últimos productos.,dev
+train/21.mp3,Cancela mi suscripción ahora mismo.,train
+train/22.mp3,¿Dónde está la sucursal más cercana?,train
+dev/23.mp3,El clima para hoy es soleado con nubes dispersas.,dev
+test/24.mp3,"Pon música relajante, por favor.",test
+train/25.mp3,Cierra la ventana de la sala. ,train
+train/26.mp3,"Hola, ¿cómo estás?",train
+train/27.mp3,"Buenos días, ¿en qué puedo ayudarte?",train
+train/28.mp3,Buenas tardes.,train
+dev/29.mp3,"Hasta luego, que tengas un buen día.",dev
+train/30.mp3,"Adiós, gracias por tu visita.",train
+train/31.mp3,"Hola, soy tu asistente virtual.",train
+train/32.mp3,"Qué tal, ¿necesitas algo?",train
+dev/33.mp3,"Buenos días, ¿en qué puedo ayudarte?",dev
+train/34.mp3,Necesito información sobre un producto.,train
+dev/35.mp3,Quiero hablar con un agente.,dev
+train/36.mp3,"Repite la última frase, por favor.",train
+dev/37.mp3,Cancela mi suscripción.,dev
+dev/38.mp3,Muéstrame las ofertas del día.,dev
+train/39.mp3,Reinicia el sistema.,train
+train/40.mp3,"Ayuda, por favor.",train
+dev/41.mp3,¿Qué puedo hacer aquí?,dev
+train/42.mp3,Quiero reservar una mesa para dos personas.,train
+train/43.mp3,Agenda una cita con el doctor García para el martes.,train
+train/44.mp3,Modifica mi reserva para las ocho y media.,train
+train/45.mp3,¿Hay disponibilidad para mañana por la tarde?,train
+train/46.mp3,¿Cuánto saldo me queda en la cuenta?,train
+train/47.mp3,"Mi vuelo está retrasado, ¿cuándo sale?",train
+test/48.mp3,¿Ya se envió mi paquete?,test
+train/49.mp3,¿Cómo va mi reclamación? ,train
+train/50.mp3,¿Me puedes dar más detalles sobre eso?,train
+dev/51.mp3,¿Qué opciones tengo disponibles?,dev
+test/52.mp3,"No entendí, ¿podrías explicarlo de nuevo?",test
+train/53.mp3,¿Cómo puedo contactar al soporte técnico?,train
+train/54.mp3,¿Por qué ocurrió esto?,train
+train/55.mp3,Cuéntame una historia.,train
+test/56.mp3,¿Qué hora es en Tokio?,test
+train/57.mp3,"Hmm, déjame pensar.",train
+test/58.mp3,"Un momento, por favor.",test
+test/59.mp3,"Entiendo, continúa.",test
+dev/60.mp3,"De acuerdo, perfecto.",dev
+train/61.mp3,Gracias por la aclaración.,train
+test/62.mp3,"Uhm, ¿puedes repetir?",test
+train/63.mp3,Estoy muy frustrado con este servicio.,train
+train/64.mp3,¡Esto es increíble!,train
+train/65.mp3,No puedo creer que esto haya pasado.,train
+train/66.mp3,Me siento realmente agradecido por su ayuda.,train
+train/67.mp3,¡Qué desastre!,train
+train/68.mp3,Estoy muy frustrado con este servicio.,train
+train/69.mp3,¡Esto es increíble!,train
+train/70.mp3,No puedo creer que esto haya pasado.,train
+train/71.mp3,Me siento realmente agradecido por su ayuda.,train
+dev/72.mp3,¡Qué desastre!,dev
