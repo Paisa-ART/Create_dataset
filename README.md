@@ -1,5 +1,8 @@
 # Create_dataset
+<img width="987" alt="Captura de pantalla 2025-07-04 a la(s) 02 25 38" src="https://github.com/user-attachments/assets/63237ff9-b233-4184-9dd5-807074a26380" />
+
 # 🤖 Generador de Datasets de Voz con ElevenLabs y MongoDB
+
 
 Este proyecto automatiza la creación de un dataset de voz a partir de textos. Utiliza la API de **ElevenLabs** para la síntesis de voz y **MongoDB** como una robusta cola de procesamiento para garantizar que no se pierda trabajo y que cada texto se procese una sola vez.
 
