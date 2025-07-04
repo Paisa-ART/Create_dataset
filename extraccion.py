@@ -71,6 +71,7 @@ if __name__ == "__main__":
                     VOICE_ID=VOICE_ID
                 )
                 if record:
+                    cargar_db.mark_text_as_processed(text_document["_id"])
                     df_new_records = pd.DataFrame([record])
                     csv_path = Path("dataset") / "manifest.csv"
                     EXPECTED_COLUMNS = ['audio_path', 'text', 'split']
@@ -80,6 +81,7 @@ if __name__ == "__main__":
                             df_existing = df_existing[EXPECTED_COLUMNS]
                             df_combined = pd.concat([df_existing, df_new_records], ignore_index=True)
                             df_combined.to_csv(csv_path, index=False)
+
                             print(f"\¡Dataset CSV actualizado exitosamente en '{csv_path}'! Se añadieron {len(df_new_records)} nuevos registros.")
                             print(f"El archivo ahora contiene un total de {len(df_combined)} registros.")
                             print(df_combined.head())

@@ -147,16 +147,12 @@ def get_next_unprocessed_text():
     collection = db[COLLECTION_NAME]
 
     try:
-        from pymongo.collection import ReturnDocument
-        
-        document = collection.find_one_and_update(
+        document = collection.find_one(
             {"processed": False},
-            {"$set": {"processed": True}},
-            sort=[('_id', 1)], # Procesa los documentos en orden de inserción
-            return_document=ReturnDocument.AFTER
-        )
+            sort=[('_id', 1)]  # Procesa los documentos en orden de inserción
+        )      
         if document:
-            print(f"Texto obtenido de la cola y marcado como procesado")
+            print(f"Texto '{document['_id']}' obtenido de la cola.")
             return document
         else:
             print("No hay más textos sin procesar en la cola.")
@@ -164,6 +160,32 @@ def get_next_unprocessed_text():
     except Exception as e:
         print(f"Error al obtener texto de la cola: {e}")
         return None
+    finally:
+        client.close()
+
+def mark_text_as_processed(document_id):
+    client = get_mongo_client()
+    if not client:
+        return False
+
+    db = client[DB_NAME]
+    collection = db[COLLECTION_NAME]
+
+    try:
+        result = collection.update_one(
+            {"_id": document_id},
+            {"$set": {"processed": True}}
+        )
+        
+        if result.modified_count > 0:
+            print(f"Documento '{document_id}' marcado como procesado.")
+            return True
+        else:
+            print(f"No se pudo actualizar el documento '{document_id}'.")
+            return False
+    except Exception as e:
+        print(f"Error al actualizar el documento: {e}")
+        return False
     finally:
         client.close()
 
