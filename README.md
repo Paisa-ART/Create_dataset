@@ -1,7 +1,7 @@
 # Create_dataset
 <img width="987" alt="Captura de pantalla 2025-07-04 a la(s) 02 25 38" src="https://github.com/user-attachments/assets/63237ff9-b233-4184-9dd5-807074a26380" />
 
-# 🤖 Generador de Datasets de Voz con ElevenLabs y MongoDB
+#Generador de Datasets de Voz con ElevenLabs y MongoDB
 
 
 Este proyecto automatiza la creación de un dataset de voz a partir de textos. Utiliza la API de **ElevenLabs** para la síntesis de voz y **MongoDB** como una robusta cola de procesamiento para garantizar que no se pierda trabajo y que cada texto se procese una sola vez.
@@ -10,7 +10,7 @@ El resultado es un dataset listo para ser usado en el entrenamiento de modelos d
 
 ---
 
-## 📋 Flujo del Proyecto
+## Flujo del Proyecto
 
 El proceso sigue este flujo de trabajo:
 
@@ -19,7 +19,7 @@ El proceso sigue este flujo de trabajo:
 
 ---
 
-## ✨ Características
+## Características
 
 * **Procesamiento Asíncrono**: Gestiona los textos a través de una cola en MongoDB, lo que permite detener y reanudar el proceso en cualquier momento.
 * **Seguridad Mejorada**: Usa variables de entorno para gestionar las claves API, evitando exponerlas en el código fuente.
@@ -29,7 +29,7 @@ El proceso sigue este flujo de trabajo:
 
 ---
 
-## 🛠️ Requisitos Previos
+## Requisitos Previos
 
 * Python 3.8+
 * Una instancia de MongoDB (local o en la nube como MongoDB Atlas).
@@ -38,7 +38,7 @@ El proceso sigue este flujo de trabajo:
 
 ---
 
-## ⚙️ Instalación y Configuración
+## Instalación y Configuración
 
 1.  **Clona este repositorio:**
     ```bash
@@ -76,7 +76,7 @@ El proceso sigue este flujo de trabajo:
 
 ---
 
-## 🚀 Uso del Proyecto
+## Uso del Proyecto
 
 El proceso consta de dos fases: cargar los datos y generar los audios.
 
